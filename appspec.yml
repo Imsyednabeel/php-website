@@ -8,3 +8,4 @@ hooks:
     - location: scripts/restart_server.sh
       timeout: 180
       runas: root
+
