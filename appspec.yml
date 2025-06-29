@@ -3,9 +3,22 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
-
+permissions:
+  - object: /var/www/html/
+    pattern: "**"
+    owner: apache
+    group: apache
+    # For Ubuntu, you would use 'www-data' instead of 'apache'
 hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies.sh
+      timeout: 300
+      runas: root
   AfterInstall:
-    - location: scripts/restart_server.sh
-      timeout: 180
+    - location: scripts/start_server.sh
+      timeout: 30
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop_server.sh
+      timeout: 30
       runas: root
