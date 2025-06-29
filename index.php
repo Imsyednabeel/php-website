@@ -5,6 +5,6 @@
 </head>
 <body>
     <h1>Welcome to My PHP Website!</h1>
-    <p>This page is deployed using AWS CodePipeline and Auto Scaling 🚀</p>
+    <p>YOu are seeing thins oage afte a succesful deployment of AWS Codepipeline</p>
 </body>
 </html>
