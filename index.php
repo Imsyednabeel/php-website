@@ -5,6 +5,6 @@
 </head>
 <body>
     <h1>Welcome to My PHP Website!</h1>
-    <p>YOu are seeing thins oage afte a succesful deployment of AWS Codepipeline</p>
+    <p>Code pipeline has been succesfully configured!</p>
 </body>
 </html>
