@@ -4,7 +4,7 @@
     <title>My Simple PHP Website</title>
 </head>
 <body>
-    <h1>Welcome to My PHP Website!</h1>
-    <p>Code pipeline has been succesfully configured!</p>
+    <h1>This is my first Php website!</h1>
+    <p>Brought to by Elastic Beanstalk</p>
 </body>
 </html>
